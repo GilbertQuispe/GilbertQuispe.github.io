@@ -52,31 +52,37 @@
         </section>
         <section class="main-section section-karen" id="karen">
             <img class="karen-foto" src="./assets/img/karencasada.png" alt="">
-            <span>Karen Ivonne <br>De La Vega Portugal</span>
-            <p>Eres, fuiste y seguirás siendo el perfecto amor de mi vida, te quiero en mis días, en los meses y en los años que me resten.</p>
-            <div>
+            <span></span>
+            <div class="p">
+                <span>Karen Ivonne De La Vega Portugal</span>
+                <p>Eres, fuiste y seguirás siendo el perfecto amor de mi vida, te quiero en mis días, en los meses y en los años que me resten.</p>
+            </div>
+            <div class="padresk">
                 <p>Hija de:</p>
-                <h3>Nelly Portugal Meza <br>y <br>Oscar De La Vega Meza </h3>
+                <h3>Nelly Portugal <br>y <br>Oscar De La Vega </h3>
             </div>
         </section>
         <section class="main-section section-gilbert" id="gilbert">
-            <span>Gilbert Antonio <br>Quispe Escobar</span>
+            <span></span>
             <img class="gilbert-foto" src="./assets/img/gilbertcasado.png" alt="">
-            <p>Tengo razones para decirte que el amor de mi vida eres tú, porque te convertiste en la persona de la que hablan las canciones.</p>
-            <div>
-                <span>Hijo de:</span>
-                <h3>Angelica Escobar Matamoros <br>y <br>Efren Quispe Huaranca</h3>
+            <div class="p">
+                <span>Gilbert Antonio Quispe Escobar</span>
+                <p>Tengo razones para decirte que el amor de mi vida eres tú, porque te convertiste en la persona de la que hablan las canciones.</p>
+            </div>
+            <div class="padresg">
+                <p>Hijo de:</p>
+                <h3>Angelica Escobar <br>y <br>Efren Quispe</h3>
             </div>
         </section>
         <section class="main-section padrinos">
-            <h3>A nuestros padrinos:</h3>
-            <p><span>Frans y Pamela</span>, por planificar y compartir con nosotros este día tan memorable, cómplices en esta aventura y la inspiración de nuestra unión. <br>!Gracias!</p>
+            <h3>A <br>nuestros <br>padrinos:</h3>
+            <p><span>Frans y Pamela</span>, por planificar y compartir con nosotros este día tan memorable, cómplices en esta aventura y la inspiración de nuestra unión. <br><br>!Gracias!</p>
         </section>
         <section class="main-section confirmarasistencia">
             <h3>CONFIRMAR SU ASISTENCIA</h3>
             <p>CÓDIGO DE VESTIMENTA:</p><span class="vestimenta"></span>
             <form class="formulario" action="https://formsubmit.co/atquis@hotmail.com" method="POST">
-                <span class="alineacion-left">Pariente:</span>                
+                <span class="alineacion-left">Pariente/Amistad:</span>                
                 <div>
                     <label for="radio"><input type="radio" name="radio" value="novia"> De la novia</label>
                     <label for="radio" ><input type="radio" name="radio" value="novio"> Del novio</label>
@@ -85,13 +91,13 @@
                 <input class="form-input" type="text" name="apellidos" id="" required style="text-transform: uppercase;">
                 <label for="nombres" class="alineacion-left" >Nombres</label>
                 <input class="form-input" type="text" name="nombres" id="" required style="text-transform: uppercase;">                
-                <label  for="parentesco" class="alineacion-left" >Parentesco</label><input class="form-input" list="parentesco" name="parentesco" required/>
+                <label  for="parentesco" class="alineacion-left" >Acompañante</label><input class="form-input" list="parentesco" name="parentesco" required/>
                 <datalist id="parentesco">
-                    <option value="Madre" name="parentesco"></option>
-                    <option value="Padre" name="parentesco"></option>
-                    <option value="Hermana" name="parentesco"></option>
+                    <option value="Si" name="parentesco"></option>
+                    <option value="No" name="parentesco"></option>
+                    <!-- <option value="Hermana" name="parentesco"></option>
                     <option value="Tia(o)" name="parentesco"></option>
-                    <option value="Prima(a)" name="parentesco"></option>                    
+                    <option value="Prima(a)" name="parentesco"></option>                     -->
                 </datalist>                
                 <div class="btn-enviar"><input onclick="abrirconfirmacion()" type="submit" id="enviar" value="Enviar confirmación"></div>
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#main">
