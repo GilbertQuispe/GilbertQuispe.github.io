@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=News+Cycle:wght@400;700&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />   
+    <title>Nuestro matrimonio</title>
+</head>
+<body onclick="PlayAudio()">
+    <audio id="audio"  loop>
+        <source src="./assets/img/tudequetevas.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function PlayAudio(){
+            document.getElementById('audio').play();
+        }
+    </script>
+    <main class="container">
+        <section class="main-section header">
+            <article>
+                <p>Después de mucho tiempo de compartir nuestros lindos momentos... Decidimos juntar nuestras almas, con la bendición de Dios.</p>
+                <a href="#main"><h1>¡Nos casamos!</h1></a>  
+                <div class="header-div">
+                    <a href="#gilbert"><h3 class="header-h3 gilbert">Gilbert</h3></a>
+                    <span class="header-span">y</span>
+                    <a href="#karen"><h3 class="header-h3 karen">Karen</h3></a>
+                </div>
+            </article>
+        </section>
+        <section class="main-section section-ceremonia" id="main">
+                <p class="invitacion">Hay momentos en la vida que son muy especiales por sí solos, pero al compartirlos con personas únicas, se convierten en recuerdos imposibles de olvidar. <br><br> ¡TE ESPERAMOS EN NUESTRA BODA!”</p>
+                <span class="main-img"></span>
+                <div class="divfecha">
+                    <p class="mes">NOVIEMBRE</p>
+                    <div class="div-line"><p class="dia">SÁBADO</p></div>
+                    <p class="fecha">11</p>
+                    <div class="div-line"><p class="año">2023</p></div>
+                    <p class="hora">11:15 A.M.</p>
+                </div>
+                <div class="div-parroquia">
+                    <p>PARROQUIA SAN JERÓNIMO DE TUNAN <br>Plaza de Armas San Jerónimo - Huancayo</p>
+                    <span class="material-symbols-outlined"><a href="https://www.google.com/maps/place/Parroquia+San+Jeronimo+de+Tunan/@-11.9490986,-75.2831874,17.5z/data=!4m14!1m7!3m6!1s0x910eb9320e72c3af:0x4e97964e89e5a278!2sParroquia+San+Jeronimo+de+Tunan!8m2!3d-11.9485126!4d-75.2822839!16s%2Fg%2F11c563l7qw!3m5!1s0x910eb9320e72c3af:0x4e97964e89e5a278!8m2!3d-11.9485126!4d-75.2822839!16s%2Fg%2F11c563l7qw?entry=ttu">location_on</a></span>
+                </div>
+                <div class="div-recepcion">
+                    <p>CELEBRACIÓN FAMILIAR <br> RESTOBAR NAPOLES <br>Jr. Abancay 101 - Huancayo</p>
+                    <span class="material-symbols-outlined"><a href="https://www.google.com/maps/place/NAPOLES+RESTOBAR/@-12.0638518,-75.2091869,17z/data=!4m10!1m2!2m1!1shostal+napoles+huancayo!3m6!1s0x910e97846c522301:0x940ca7fb68452fdc!8m2!3d-12.0628076!4d-75.2076707!15sChdob3N0YWwgbmFwb2xlcyBodWFuY2F5b1oZIhdob3N0YWwgbmFwb2xlcyBodWFuY2F5b5IBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11kb52rtx3?entry=ttu">location_on</a></span>
+                </div>                    
+        </section>
+        <section class="main-section section-karen" id="karen">
+            <img class="karen-foto" src="./assets/img/karencasada.png" alt="">
+            <span>Karen Ivonne <br>De La Vega Portugal</span>
+            <p>Eres, fuiste y seguirás siendo el perfecto amor de mi vida, te quiero en mis días, en los meses y en los años que me resten.</p>
+            <div>
+                <p>Hija de:</p>
+                <h3>Nelly Portugal Meza <br>y <br>Oscar De La Vega Meza </h3>
+            </div>
+        </section>
+        <section class="main-section section-gilbert" id="gilbert">
+            <span>Gilbert Antonio <br>Quispe Escobar</span>
+            <img class="gilbert-foto" src="./assets/img/gilbertcasado.png" alt="">
+            <p>Tengo razones para decirte que el amor de mi vida eres tú, porque te convertiste en la persona de la que hablan las canciones.</p>
+            <div>
+                <span>Hijo de:</span>
+                <h3>Angelica Escobar Matamoros <br>y <br>Efren Quispe Huaranca</h3>
+            </div>
+        </section>
+        <section class="main-section padrinos">
+            <h3>A nuestros padrinos:</h3>
+            <p><span>Frans y Pamela</span>, por planificar y compartir con nosotros este día tan memorable, cómplices en esta aventura y la inspiración de nuestra unión. <br>!Gracias!</p>
+        </section>
+        <section class="main-section confirmarasistencia">
+            <h3>CONFIRMAR SU ASISTENCIA</h3>
+            <p>CÓDIGO DE VESTIMENTA:</p><span class="vestimenta"></span>
+            <form class="formulario" action="https://formsubmit.co/atquis@hotmail.com" method="POST">
+                <span class="alineacion-left">Pariente:</span>                
+                <div>
+                    <label for="radio"><input type="radio" name="radio" value="novia"> De la novia</label>
+                    <label for="radio" ><input type="radio" name="radio" value="novio"> Del novio</label>
+                </div>                
+                <label for="apellidos" class="alineacion-left" >Apellidos</label>
+                <input class="form-input" type="text" name="apellidos" id="" required style="text-transform: uppercase;">
+                <label for="nombres" class="alineacion-left" >Nombres</label>
+                <input class="form-input" type="text" name="nombres" id="" required style="text-transform: uppercase;">                
+                <label  for="parentesco" class="alineacion-left" >Parentesco</label><input class="form-input" list="parentesco" name="parentesco" required/>
+                <datalist id="parentesco">
+                    <option value="Madre" name="parentesco"></option>
+                    <option value="Padre" name="parentesco"></option>
+                    <option value="Hermana" name="parentesco"></option>
+                    <option value="Tia(o)" name="parentesco"></option>
+                    <option value="Prima(a)" name="parentesco"></option>                    
+                </datalist>                
+                <div class="btn-enviar"><input onclick="abrirconfirmacion()" type="submit" id="enviar" value="Enviar confirmación"></div>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#main">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            <article>
+                <!-- <h3>AGRADECIMIENTO</h3> -->
+                <p>Jr. Abancay 315 - Urb. San Carlos , Huancayo - Huancayo - Junin</p>
+            </article>            
+            <div class="confirmacion" id="confirmacion">
+                <span>Muchas gracias.. Te esperamos!</span>
+            </div>
+            <script src="./confirmacion.js">
+            </script>
+        </section>
+    </main>
+</body>
+</html>
