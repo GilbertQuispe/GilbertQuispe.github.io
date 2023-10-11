@@ -11,15 +11,16 @@
     <title>Nuestro matrimonio</title>
 </head>
 <body onclick="PlayAudio()">
-    <audio id="audio"  loop>
-        <source src="./assets/img/tudequetevas.mp3" type="audio/mpeg">
-    </audio>
-    <script>
-        function PlayAudio(){
-            document.getElementById('audio').play();
-        }
-    </script>
+    
     <main class="container">
+        <audio id="audio" controls loop class="audiocontrol">
+            <source src="./assets/img/tudequetevas.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            function PlayAudio(){
+                document.getElementById('audio').play();
+            }
+        </script>
         <section class="main-section header">
             <article class="header-article">
                 <p>Después de mucho tiempo de compartir nuestros lindos momentos... Decidimos juntar nuestras almas, con la bendición de Dios.</p>
@@ -102,8 +103,8 @@
                     <input class="form-input" type="text" name="nombres" id="" required style="text-transform: uppercase;">                
                     <label  for="parentesco" class="alineacion-left" >Acompañante</label>
                     <div class="form-div--radio">
-                        <label for="parentesco"><input type="radio" checked name="acomp" value="acomp"> Si           </label>
-                        <label for="parentesco" ><input type="radio" name="acomp" value="acomp"> No</label>
+                        <label for="parentesco"><input type="radio" checked name="acomp" value="Si"> Si           </label>
+                        <label for="parentesco" ><input type="radio" name="acomp" value="No"> No</label>
                     </div>                
                     <!-- <input class="form-input" list="parentesco" name="parentesco" required/>
                     <datalist id="parentesco">

@@ -31,6 +31,11 @@ html{
     height: var(--tamaño);    
 }
 /*Section uno*/
+.audiocontrol{
+    position: absolute;
+    opacity: 0.4;
+    margin-top:650px;
+}
 .header{    
     background-image: url('../assets/img/principal2.jpg');
     background-position: center;
@@ -415,6 +420,9 @@ a{
     padding-left: 100px;
 }
 @media (min-width: 600px){
+    .audiocontrol{       
+        margin-top:calc(50%);
+    }
     .header{
         width: 100%;
         order: 1;
@@ -436,6 +444,7 @@ a{
         margin-top: 5rem;
         margin-left: 10rem;   
         text-align: left;
+        color: var(--2docolor);
     }
     .section-ceremonia {
         width: 100%;
@@ -489,6 +498,9 @@ a{
     .container{
         background-color: #7cc78f;
         /* background: rgba(242, 245, 243, 0.363); */
+    }
+    .audiocontrol{       
+        margin-top:600px;
     }
     .header {
         width: 40%;
