@@ -43,11 +43,11 @@ html{
 }
 .header p{    
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 700;    
     color: var(--1ercolor);
-    padding-top: calc(20%);
-    padding-left: calc(35%);
-    padding-right: 15px;
+    padding-top: calc(40%);
+    padding-left: calc(30%);
+    padding-right: calc(5%);
     text-align: right; 
     /* opacity: 1; */
 }
@@ -60,7 +60,7 @@ html{
 }
 .header h1:hover{
     font-size: 5rem;
-    color: var(--4tocolor);
+    color: white;
     text-align: center;
     margin-top: 20rem;
     text-shadow: 0.5rem 0.5rem 0.5rem black;
@@ -112,7 +112,7 @@ a{
 }
 /*Seccion 2*/
 .section-ceremonia{
-    height: 600px;
+    height: 780px;
     Display: flex; 
     flex-direction: column;
     align-items: center;
@@ -167,10 +167,6 @@ a{
 
 /* Seccion 3 */
 .section-karen{
-    /* width: inherit; */
-    /* min-width: inherit; */
-    /* max-width:inherit; */
-    /* height: inherit;  */
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
@@ -261,7 +257,7 @@ a{
     width: 100%;
     min-width: 320px;
     /* max-width:360px ; */
-    height: 600px; 
+    height: 780px; 
     background-image: url('../assets/img/fondoazul.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -281,6 +277,9 @@ a{
     align-items: center;
     justify-content: center;
     background: rgba(242, 245, 243, 0.363);   
+}
+.form-div--radio{
+  margin-left: calc(10%);  
 }
 .confirmarasistencia h3{
     font-size: 2rem;
@@ -404,35 +403,35 @@ article span{
 }
 @media (min-width: 600px){
     .header{
-        width: 25%;
+        width: 100%;
         order: 1;
         min-width: 150px;
-        height: 200px;
+        height: 400px;
     }
     .section-ceremonia {
-        width: 75%;
-        order: 2;
-        height: 200px;
-    }
-    .section-karen {
-        width: 100%;
-        order: 3;
-        height: 400px;
-    }
-    .section-gilbert {
         width: 100%;
         order: 4;
-        height: 400px;
+        height: 500px;
+    }
+    .section-karen {
+        width: 50%;
+        order: 2;
+        height: 500px;
+    }
+    .section-gilbert {
+        width: 50%;
+        order: 3;
+        height: 500px;
     }
     .padrinos {
-        width: 100%;
+        width: 50%;
         order: 5;
-        height: 400px;
+        height: 500px;
     }
     .confirmarasistencia {
-        width: 100%;
+        width: 50%;
         order: 6;
-        height: 400px;
+        height: 500px;
     }
 }
 @media (min-width: 800px){
