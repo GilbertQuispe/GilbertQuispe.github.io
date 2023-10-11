@@ -21,7 +21,7 @@
     </script>
     <main class="container">
         <section class="main-section header">
-            <article>
+            <article class="header-article">
                 <p>Después de mucho tiempo de compartir nuestros lindos momentos... Decidimos juntar nuestras almas, con la bendición de Dios.</p>
                 <a href="#main"><h1>¡Nos casamos!</h1></a>  
                 <div class="header-div">
@@ -51,67 +51,75 @@
                 </div>                    
         </section>
         <section class="main-section section-karen" id="karen">
-            <img class="karen-foto" src="./assets/img/karencasada.png" alt="">
-            <span></span>
-            <div class="p">
-                <span>Karen Ivonne De La Vega Portugal</span>
-                <p>Eres, fuiste y seguirás siendo el perfecto amor de mi vida, te quiero en mis días, en los meses y en los años que me resten.</p>
-            </div>
-            <div class="padresk">
-                <p>Hija de:</p>
-                <h3>Nelly Portugal <br>y <br>Oscar De La Vega </h3>
+            <div class="karentransparente">
+                <img class="karen-foto" src="./assets/img/karencasada.png" alt="">
+                <span></span>
+                <div class="p">
+                    <span>Karen Ivonne De La Vega Portugal</span>
+                    <p>Eres, fuiste y seguirás siendo el perfecto amor de mi vida, te quiero en mis días, en los meses y en los años que me resten.</p>
+                </div>
+                <div class="padresk">
+                    <p>Hija de:</p>
+                    <h3>Nelly Portugal <br>y <br>Oscar De La Vega </h3>
+                </div>
             </div>
         </section>
         <section class="main-section section-gilbert" id="gilbert">
-            <span></span>
-            <img class="gilbert-foto" src="./assets/img/gilbertcasado.png" alt="">
-            <div class="p">
-                <span>Gilbert Antonio Quispe Escobar</span>
-                <p>Tengo razones para decirte que el amor de mi vida eres tú, porque te convertiste en la persona de la que hablan las canciones.</p>
-            </div>
-            <div class="padresg">
-                <p>Hijo de:</p>
-                <h3>Angelica Escobar <br>y <br>Efren Quispe</h3>
+            <div class="gilberttransparente">
+                <span></span>
+                <img class="gilbert-foto" src="./assets/img/gilbertcasado.png" alt="">
+                <div class="p">
+                    <span>Gilbert Antonio Quispe Escobar</span>
+                    <p>Tengo razones para decirte que el amor de mi vida eres tú, porque te convertiste en la persona de la que hablan las canciones.</p>
+                </div>
+                <div class="padresg">
+                    <p>Hijo de:</p>
+                    <h3>Angelica Escobar <br>y <br>Efren Quispe</h3>
+                </div>
             </div>
         </section>
         <section class="main-section padrinos">
-            <h3>A <br>nuestros <br>padrinos:</h3>
+            <div class="padrinostransparente">
+                <h3>A <br>nuestros <br>padrinos:</h3>
             <p><span>Frans y Pamela</span>, por planificar y compartir con nosotros este día tan memorable, cómplices en esta aventura y la inspiración de nuestra unión. <br><br>!Gracias!</p>
+            </div>
         </section>
         <section class="main-section confirmarasistencia">
-            <h3>CONFIRMAR SU ASISTENCIA</h3>
-            <p>CÓDIGO DE VESTIMENTA:</p><span class="vestimenta"></span>
-            <form class="formulario" action="https://formsubmit.co/atquis@hotmail.com" method="POST">
-                <span class="alineacion-left">Pariente/Amistad:</span>                
-                <div>
-                    <label for="radio"><input type="radio" name="radio" value="novia"> De la novia</label>
-                    <label for="radio" ><input type="radio" name="radio" value="novio"> Del novio</label>
-                </div>                
-                <label for="apellidos" class="alineacion-left" >Apellidos</label>
-                <input class="form-input" type="text" name="apellidos" id="" required style="text-transform: uppercase;">
-                <label for="nombres" class="alineacion-left" >Nombres</label>
-                <input class="form-input" type="text" name="nombres" id="" required style="text-transform: uppercase;">                
-                <label  for="parentesco" class="alineacion-left" >Acompañante</label><input class="form-input" list="parentesco" name="parentesco" required/>
-                <datalist id="parentesco">
-                    <option value="Si" name="parentesco"></option>
-                    <option value="No" name="parentesco"></option>
-                    <!-- <option value="Hermana" name="parentesco"></option>
-                    <option value="Tia(o)" name="parentesco"></option>
-                    <option value="Prima(a)" name="parentesco"></option>                     -->
-                </datalist>                
-                <div class="btn-enviar"><input onclick="abrirconfirmacion()" type="submit" id="enviar" value="Enviar confirmación"></div>
-                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#main">
-                <input type="hidden" name="_captcha" value="false">
-            </form>
-            <article>
-                <!-- <h3>AGRADECIMIENTO</h3> -->
-                <p>Jr. Abancay 315 - Urb. San Carlos , Huancayo - Huancayo - Junin</p>
-            </article>            
-            <div class="confirmacion" id="confirmacion">
-                <span>Muchas gracias.. Te esperamos!</span>
+            <div class="confirmarasistenciatransparente">
+                <h3>CONFIRMAR SU ASISTENCIA</h3>
+                <p>CÓDIGO DE VESTIMENTA:</p><span class="vestimenta"></span>
+                <form class="formulario" action="https://formsubmit.co/atquis@hotmail.com" method="POST">
+                    <span class="alineacion-left">Pariente/Amistad:</span>                
+                    <div>
+                        <label for="radio"><input type="radio" name="radio" value="novia"> De la novia</label>
+                        <label for="radio" ><input type="radio" name="radio" value="novio"> Del novio</label>
+                    </div>                
+                    <label for="apellidos" class="alineacion-left" >Apellidos</label>
+                    <input class="form-input" type="text" name="apellidos" id="" required style="text-transform: uppercase;">
+                    <label for="nombres" class="alineacion-left" >Nombres</label>
+                    <input class="form-input" type="text" name="nombres" id="" required style="text-transform: uppercase;">                
+                    <label  for="parentesco" class="alineacion-left" >Acompañante</label><input class="form-input" list="parentesco" name="parentesco" required/>
+                    <datalist id="parentesco">
+                        <option value="Si" name="parentesco"></option>
+                        <option value="No" name="parentesco"></option>
+                        <!-- <option value="Hermana" name="parentesco"></option>
+                        <option value="Tia(o)" name="parentesco"></option>
+                        <option value="Prima(a)" name="parentesco"></option>                     -->
+                    </datalist>                
+                    <div class="btn-enviar"><input onclick="abrirconfirmacion()" type="submit" id="enviar" value="Enviar confirmación"></div>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#main">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+                <article>
+                    <!-- <h3>AGRADECIMIENTO</h3> -->
+                    <p>Jr. Abancay 315 - Urb. San Carlos , Huancayo - Huancayo - Junin</p>
+                </article>            
+                <div class="confirmacion" id="confirmacion">
+                    <span>Muchas gracias.. Te esperamos!</span>
+                </div>
+                <script src="./confirmacion.js">
+                </script>
             </div>
-            <script src="./confirmacion.js">
-            </script>
         </section>
     </main>
 </body>
