@@ -98,22 +98,26 @@
                     <input class="form-input" type="text" name="apellidos" id="" required style="text-transform: uppercase;">
                     <label for="nombres" class="alineacion-left" >Nombres</label>
                     <input class="form-input" type="text" name="nombres" id="" required style="text-transform: uppercase;">                
-                    <label  for="parentesco" class="alineacion-left" >Acompañante</label><input class="form-input" list="parentesco" name="parentesco" required/>
+                    <label  for="parentesco" class="alineacion-left" >Acompañante</label>
+                    <div class="form-div--radio">
+                        <label for="parentesco"><input type="radio" checked name="acomp" value="acomp"> Si </label>
+                        <label for="parentesco" ><input type="radio" name="acomp" value="acomp"> No</label>
+                    </div>                
+                    <!-- <input class="form-input" list="parentesco" name="parentesco" required/>
                     <datalist id="parentesco">
                         <option value="Si" name="parentesco"></option>
                         <option value="No" name="parentesco"></option>
-                        <!-- <option value="Hermana" name="parentesco"></option>
+                        <option value="Hermana" name="parentesco"></option>
                         <option value="Tia(o)" name="parentesco"></option>
-                        <option value="Prima(a)" name="parentesco"></option>                     -->
-                    </datalist>                
+                        <option value="Prima(a)" name="parentesco"></option>                    
+                    </datalist>                 -->
                     <div class="btn-enviar"><input onclick="abrirconfirmacion()" type="submit" id="enviar" value="Enviar confirmación"></div>
                     <input type="hidden" name="_next" value="https://gilbertquispe.github.io/">
                     <input type="hidden" name="_captcha" value="false">
                 </form>
-                <article>
-                    <!-- <h3>AGRADECIMIENTO</h3> -->
-                    <p>Jr. Abancay 315 - Urb. San Carlos , Huancayo - Huancayo - Junin</p>
-                </article>            
+                <!-- <article > -->
+                    <p class="direccion">Domicilio: Jr. Abancay 315 - Urb. San Carlos , Huancayo - Huancayo - Junin</p>
+                <!-- </article>             -->
                 <div class="confirmacion" id="confirmacion">
                     <span>Muchas gracias.. Te esperamos!</span>
                 </div>
