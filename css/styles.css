@@ -485,7 +485,7 @@ a{
         font-size: 1.6rem;
     }
     .formulario div{
-        padding-left: calc(10%)%;
+        padding-left: calc(10%);
     }
     .confirmacion{
         margin-top: 378px;       
